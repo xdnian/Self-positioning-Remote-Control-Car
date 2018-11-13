@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>REMOTE CONTROL</title>
+
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="title">REMOTE CONTROL</li>
+            <li><a href="./camera.html">Camera</a></li>
+            <li><a class="active">Control</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <div id="panel">
+            <canvas id="ground" width="406" height="406" style="border:3px solid white;">
+            </canvas>
+            <div id="car"></div>
+        </div>
+        <div id="distance">
+            <table style="width:400px" align="center">
+                <tr>
+                    <td colspan="3" id="front">Normal</td>
+                </tr>
+                <tr>
+                    <td id="left">Normal</td>
+                    <td><img src="./car.png"></td>
+                    <td id="right">Normal</td>
+                </tr>
+                <tr>
+                    <td colspan="3" id="back">Normal</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="./control.js"></script>
+</body>
+
+</html>

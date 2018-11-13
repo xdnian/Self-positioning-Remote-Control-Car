@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>REMOTE CONTROL</title>
+
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="title">REMOTE CONTROL</li>
+            <li><a class="active">Camera</a></li>
+            <li><a href="./control.html">Control</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <div id="panel">
+            <img src="http://192.168.1.32:2333/video_feed">
+            <!--<img width="640" src="92389-105.jpg">-->
+        </div>
+        <div id="control">
+            <button class="button" id="cam_left">←</button>
+            <button class="button" id="cam_reset">RESET</button>
+            <button class="button" id="cam_right">→</button>
+        </div>
+
+    </div>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="./camera.js"></script>
+</body>
+
+</html>

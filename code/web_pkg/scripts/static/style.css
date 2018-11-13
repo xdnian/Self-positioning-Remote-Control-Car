@@ -1,0 +1,95 @@
+body {
+    margin:0;
+    background-color:#1abc9c;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+    font-family: sans-serif;
+}
+
+#title {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+div {
+    text-align: center;
+}
+
+#panel { 
+    margin: 50px 0 30px 0;
+    display: inline-block;
+}
+
+.button {
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Monospace;
+    margin: 4px 5px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.button:hover {
+    background-color: white; /* Green */
+    color: #1abc9c;
+}
+
+#car {
+    position: absolute;
+	z-index: 1;
+}
+
+#ground {
+    z-index: 1;
+}
+
+table {
+    color: white;
+}
+
+td {
+    padding: 10px 5px;
+}
